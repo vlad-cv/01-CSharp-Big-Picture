@@ -15,5 +15,12 @@ internal class Tools
         }
         while (typeInfo != null);
     }
+
+    public static void WorkingWithFunctionalFeatures()
+    {
+        // Using LINQ's Aggregate method to sum numbers in an array
+        var number = new int[] { 1, 2, 3, 4 };
+        Console.WriteLine(number.Aggregate(0, (total, num) => total + num));
+    }
 }
 
