@@ -4,7 +4,8 @@ internal class Tools
 {
     public static void WorkingWithTypes()
     {
-        var numbers = new int[] { 1, 2, 3, 4, 5 };
+        // collection expression
+        var numbers = new [] { 1, 2, 3, 4, 5 };
         var typeInfo = numbers.GetType();
 
 
@@ -33,6 +34,9 @@ internal class Tools
 
         point = new Point { X = 50 };
         Console.WriteLine($"The point: {point}");
+        // point.Y = 60; // This line causes a compile-time error due to 'init' accessor
+
+  
     }
 }
 
