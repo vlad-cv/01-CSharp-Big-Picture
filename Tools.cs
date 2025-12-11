@@ -22,5 +22,17 @@ internal class Tools
         var number = new int[] { 1, 2, 3, 4 };
         Console.WriteLine(number.Aggregate(0, (total, num) => total + num));
     }
+
+    public static void WorkingWithPoints()
+    {
+        var point = new Point { X = 10, Y = 20 };
+        Console.WriteLine($"The point: {point}");
+
+        point = new Point { X = 30, Y = 40 };
+        Console.WriteLine($"The point: {point}");
+
+        point = new Point { X = 50 };
+        Console.WriteLine($"The point: {point}");
+    }
 }
 

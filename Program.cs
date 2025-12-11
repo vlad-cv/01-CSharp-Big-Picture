@@ -2,3 +2,4 @@
 
 Tools.WorkingWithTypes();
 Tools.WorkingWithFunctionalFeatures();
+Tools.WorkingWithPoints();
